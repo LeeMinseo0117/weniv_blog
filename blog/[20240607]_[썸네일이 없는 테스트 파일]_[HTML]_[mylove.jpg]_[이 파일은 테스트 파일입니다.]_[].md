@@ -1,7 +1,163 @@
-# test1 제목입니다. 테스트 파일입니다.
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>이일남</title>
+    <style>
+      * {
+        text-align: center;
+      }
+      header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      ul {
+        padding: 0%;
+      }
+      li {
+        list-style-type: none;
+      }
+      .img-wrap {
+        margin: 30px;
+      }
 
-* hello world 1
+      .dl-row {
+        justify-content: flex-start;
+        padding: 8px 0;
+      }
+      dt {
+        font-weight: bold;
+        color: #555;
 
-법관이 중대한 심신상의 장해로 직무를 수행할 수 없을 때에는 법률이 정하는 바에 의하여 퇴직하게 할 수 있다. 타인의 범죄행위로 인하여 생명·신체에 대한 피해를 받은 국민은 법률이 정하는 바에 의하여 국가로부터 구조를 받을 수 있다.
+        flex-shrink: 0;
+      }
+      dd {
+        margin-left: 0;
+        color: #333;
+      }
+      q {
+        font-weight: bold;
+      }
 
-행정권은 대통령을 수반으로 하는 정부에 속한다. 국가의 세입·세출의 결산, 국가 및 법률이 정한 단체의 회계검사와 행정기관 및 공무원의 직무에 관한 감찰을 하기 위하여 대통령 소속하에 감사원을 둔다.
+      a {
+        color: black;
+      }
+      ol {
+        list-style: none;
+        text-align: left;
+        padding: 0;
+      }
+      #email {
+        display: block;
+      }
+      #tel {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>
+        멋있는 수컷 하늘다람쥐 <br />
+        그 이름 이일남
+      </h1>
+
+      <nav>
+        <ul>
+          <li><a href="#1">자기소개</a></li>
+          <li><a href="#2">좋아하는 음식</a></li>
+          <li><a href="#3">좋아하는 간식</a></li>
+          <li><a href="#4">싫어하는 음식</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="main">
+        <div class="img-wrap">
+          <img
+            src="/img/mylove.jpg"
+            alt="이름이 이일남인 하늘다람쥐 사진"
+            width="230px"
+          />
+        </div>
+      </div>
+
+      <section>
+        <h2 id="1">자기소개</h2>
+
+        <dl>
+          <div class="dl-row">
+            <dt>성</dt>
+            <dd>이</dd>
+          </div>
+
+          <div class="dl-row">
+            <dt>이름</dt>
+            <dd>일남</dd>
+          </div>
+
+          <div class="dl-row">
+            <dt>뜻</dt>
+            <dd>민서네 집 첫번째 아들</dd>
+          </div>
+
+          <div class="dl-row">
+            <dt>성별</dt>
+            <dd>남자</dd>
+          </div>
+          <div class="dl-row">
+            <dt>나이</dt>
+            <dd>6살</dd>
+          </div>
+        </dl>
+      </section>
+
+      <div class="q">
+        <q>우리 일남이 하고싶은거 다 해</q>
+      </div>
+
+      <section>
+        <h2 id="2">좋아하는 음식 <mark>TOP3</mark></h2>
+        <ol>
+          <li>버섯</li>
+          <li>파프리카</li>
+          <li>당근</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2 id="3">좋아하는 간식 <mark>TOP3</mark></h2>
+        <ol>
+          <li>해바라기씨</li>
+          <li>아몬드</li>
+          <li>호두</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2 id="4">싫어하는 음식 <mark>TOP3</mark></h2>
+        <ol>
+          <li>브로콜리</li>
+          <li>청경채</li>
+          <li>치커리</li>
+        </ol>
+      </section>
+
+      <figure id="5">
+        <img src="/img/mylove2.jpg" width="220px" />
+        <figcaption>간식 달라고 손 내미는 일남이</figcaption>
+      </figure>
+    </main>
+
+    <footer>
+      일남이의 사진을 더 받고 싶다면 문의 주세요
+      <address>
+        <a href="" id="email">leems3164@naver.com</a>
+
+        <a href="tel:010-3164-9766" id="tel">010-3164-9766</a>
+      </address>
+    </footer>
+  </body>
+</html>
