@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="ko-KR">
   <head>
@@ -161,3 +162,4 @@
     </footer>
   </body>
 </html>
+```
